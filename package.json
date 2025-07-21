@@ -1,0 +1,27 @@
+{
+  "name": "nightscout-client",
+  "description": "A JavaScript client for the Nightscout API",
+  "type": "commonjs",
+  "main": "src/nightscout.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "find src -type f -name \"*.js\" -exec js-beautify -r --indent-size 2 {} \\;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/earldouglas/nightscout-client.git"
+  },
+  "author": {
+    "name": "James Earl Douglas",
+    "email": "james@earldouglas.com",
+    "url": "https://earldouglas.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/earldouglas/nightscout-client/issues"
+  },
+  "homepage": "https://github.com/earldouglas/nightscout-client",
+  "devDependencies": {
+    "js-beautify": "1.15.4"
+  }
+}
